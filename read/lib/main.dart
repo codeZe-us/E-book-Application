@@ -3,8 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:provider/provider.dart';
 
+import 'domain/models/getx/theme_getx_model.dart';
 import 'presentation/pages/screens/intro_screen.dart';
 import 'presentation/pages/screens/splash_screen.dart';
+import 'presentation/view-models/provider/cart_provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
